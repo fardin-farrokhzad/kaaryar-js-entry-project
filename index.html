@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>weather</title>
+  </head>
+  <body>
+    <header class="head">
+      <input type="text" id="input" />
+      <p>امروز  <span id="day-0">شنبه</span></p>
+    </header>
+    <main class="container">
+      <section class="hero">
+        <div class="weather-today">
+          <img src="SVGs/Moon cloud snow.svg" alt="icon" />
+          <div class="top">
+            <h1>12&deg;</h1>
+            <h3>وضعیت هوا</h3>
+          </div>
+          <div class="bellow">
+            <span>حداکثر 15&deg;</span>
+            <span>حداقل 9&deg;</span>
+          </div>
+        </div>
+        <div class="weather-table">
+          <div class="weather-table-header">
+            <img src="SVGs/calendar.svg" alt="calendar icon" />
+            <span>پیش بینی روزهای آینده</span>
+          </div>
+          <table>
+            <tr>
+              <th id="day-1">یکشنبه</th>
+              <th><img class="weather-icon" src="SVGs/Sun cloud angled rain.svg" alt="icon">
+              </th>
+              <td>
+                <div class="weather-row">
+                  <span class="degrees">min 11&deg; / max 18&deg;</span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th id="day-2">دوشنبه</th>
+              <th><img class="weather-icon" src="SVGs/Cloud 3 zap.svg" alt="icon">
+              </th>
+              <td>
+                <div class="weather-row">
+                  <span class="degrees">min 10&deg; / max 15&deg;</span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th id="day-3">سه شنبه</th>
+              <th><img class="weather-icon" src="SVGs/Fast winds.svg" alt="icon">
+              </th>
+              <td>
+                <div class="weather-row">
+                  <span class="degrees">min 7&deg; / max13&deg;</span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th id="day-4">چهارشنبه</th>
+              <th><img class="weather-icon" src="SVGs/Slow winds.svg" alt="icon">
+              </th>
+              <td>
+                <div class="weather-row">
+                  <span class="degrees">min 5&deg; / max9&deg;</span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th id="day-5">پنج شنبه</th>
+              <th><img class="weather-icon" src="SVGs/Cloud slow wind.svg" alt="icon">
+              </th>
+              <td>
+                <div class="weather-row">
+                  <span class="degrees">min 12&deg; / max 13&deg;</span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th id="day-6">جمعه</th>
+              <th><img class="weather-icon" src="SVGs/Cloud big rain.svg" alt="icon">
+              </th>
+              <td>
+                <div class="weather-row">
+                  <span class="degrees">min 12&deg; / max 23&deg;</span>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
